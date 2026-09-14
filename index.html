@@ -4,26 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IPCA - Ensino Superior Público - Barcelos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="logotipo">
-            <img src="UPCA.svg" alt="Logotipo do UPCA">
+    <header class="header">
+        <h1 class="titulo titulo2" id="tituloId">IPCA - Ensino Superior Público - Barcelos</h1>
+        <div class="header-container">
+            <div>
+                <img class="logotipo" src="UPCA.svg" alt="Logotipo do UPCA">
+            </div>
+            <form action="" method="get">
+                <label for="busca"></label>
+                <input type="search" name="busca" id="busca">
+                <button type="submit">Enviar</button>
+            </form>
+            <nav class="navigation">
+                <a>ESTUDAR</a>
+                <a>I&D+I</a>
+                <a>INTERNACIONAL</a>
+                <a>VIVER</a>
+                <a>UPCA</a>
+            </nav>
         </div>
-        <form action="" method="get">
-            <label for="busca"></label>
-            <input type="search" name="busca" id="busca">
-            <button type="submit">Enviar</button>
-        </form>
-        <nav class="navigation">
-                <ul class="nav-options">
-                    <li>ESTUDAR</li>
-                    <li>I&D+I</li>
-                    <li>INTERNACIONAL</li>
-                    <li>VIVER</li>
-                    <li>UPCA</li>
-                </ul>
-        </nav>
     </header>
+    <div>
+        <p>Vá para o Google</p>
+        <a href="https://www.google.com" target="_blank">Google</a>
+    </div>
+    <div>
+        <p>Vá para o Youtube</p>
+        <a href="https://www.youtube.com">Youtube</a>
+    </div>
+    <div>
+        <p>Vá para o site do UPCA</p>
+        <a href="https://www.ipca.pt" target="_blank">UPCA</a>
+    </div>
 </body>
 </html>

@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+p {
+    font-size: 1rem;
+}
+
+body {
+    color: chocolate
+}
+
+.navigation a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+
+.logotipo {
+    width: 20%;
+}
+
+#tituloId {
+    color: green;
+}
+
+.titulo {
+    color: red;
+}
+
+h1 {
+    color: purple !important;
+    font-size: 50px;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a[target="_blank"] {
+    color: blue;
+}
+
+button:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+a[target="_blank"]::after {
+    content: " (abre em nova aba)";
+}
